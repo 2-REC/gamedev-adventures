@@ -1,4 +1,4 @@
-/blog/public/
-/blog/resources/_gen/
+/public/
+/resources/_gen/
 
 .hugo_build.lock

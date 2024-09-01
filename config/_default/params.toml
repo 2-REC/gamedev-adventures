@@ -1,5 +1,5 @@
 #logoImage = "" # E.g.: "/logo/logo.png"
-logoText = "GD Adevntures"
+logoText = "GD Adventures"
 logoType = "short" # long, short
 description = "Explorations in gamedev universe..."
 custom_css = []
