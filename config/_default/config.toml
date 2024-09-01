@@ -1,0 +1,54 @@
+baseURL = "https://example.com"
+title = "Gamedev Adventures"
+theme = "hugo-myblog-theme"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+hasCJKLanguage = false # Set to 'true' if want to use Chinese/Japanese/Korean
+
+summaryLength = 70
+#buildFuture = true # Debug purpose
+
+copyright = "&copy;&nbsp;{year} {}, All Rights Reserved" # If no '{}', whole text will be on the left
+#timeout = 10000 # Default: 10000 (10s)
+enableEmoji = true
+paginate = 10 # Default 10
+
+#pluralizeListTitles = false
+#enableGitInfo = false # Default: false
+#googleAnalytics = "" # Default: ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
+      xHTML = true
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"

@@ -1,0 +1,3 @@
+[submodule "themes/hugo-myblog-theme"]
+	path = themes/hugo-myblog-theme
+	url = https://github.com/2-REC/hugo-myblog-theme.git
