@@ -3,7 +3,7 @@ title = "Gamedev Adventures"
 theme = "hugo-myblog-theme"
 
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+#defaultContentLanguageInSubdir = true
 hasCJKLanguage = false # Set to 'true' if want to use Chinese/Japanese/Korean
 
 summaryLength = 70
@@ -17,6 +17,15 @@ paginate = 10 # Default 10
 #pluralizeListTitles = false
 #enableGitInfo = false # Default: false
 #googleAnalytics = "" # Default: ""
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentdir = "content"
+    [languages.en.params]
+      languageShort = "EN"
+      languagedir = "ltr"
 
 [markup]
   [markup.goldmark]
